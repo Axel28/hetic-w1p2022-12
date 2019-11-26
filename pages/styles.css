@@ -3,21 +3,21 @@ body {
 }
 
 @font-face {
-  font-family: "Open Sans";
-  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
-    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+  font-family: "#";
+  src: url("#") format("woff2"),
+    url("#") format("woff");
 }
 
 /* MOBILE SCREEN */
 
 @media (min-width: 320px) {
-  div {
+  .navBar {
     color: aliceblue;
   }
 }
 
 @media (min-width: 360px) {
-  div {
+  section {
     color: aliceblue;
   }
 }
@@ -25,13 +25,13 @@ body {
 /* TABLET SCREEN */
 
 @media (min-width: 768px) {
-  div {
+  section {
     color: aliceblue;
   }
 }
 
 @media (min-width: 1280px) {
-  div {
+  section {
     color: aliceblue;
   }
 }
@@ -39,13 +39,13 @@ body {
 /* DESKTOP SCREEN */
 
 @media (min-width: 1366px) {
-  div {
+  section {
     color: aliceblue;
   }
 }
 
 @media (min-width: 1920px) {
-  div {
+  section {
     color: aliceblue;
   }
 }
