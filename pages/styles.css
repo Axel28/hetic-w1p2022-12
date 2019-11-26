@@ -10,32 +10,53 @@
 
 /* MOBILE SCREEN */
 
+@media (min-width: 320px) {
+  .container-nav .navRoot {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 44px;
+    grid-template-areas: "menu_burger logo logo logo logo icons icons";
+    padding-top: 24px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    background-color: rgb(64, 144, 155);
+  }
 
+  .navSection_Mobile {
+    grid-area: menu_burger;
+  }
 
-/* TABLET SCREEN */
+  .navSection_logo {
+    grid-area: logo;
+  }
+
+  .navSection_Icons {
+    grid-area: icons;
+  }
+
+  .intro .container-intro {
+    background-color: rgb(70, 40, 40);
+    height: 408px;
+  }
+}
+
+/* TABLET SCREEN 
 
 @media (min-width: 768px) {
-  section {
-    color: #000;
-  }
 }
 
 @media (min-width: 1280px) {
-  section {
-    color: #000;
-  }
 }
 
-/* DESKTOP SCREEN */
+*/
+
+/* DESKTOP SCREEN 
 
 @media (min-width: 1366px) {
-  section {
-    color: #000;
-  }
 }
 
 @media (min-width: 1920px) {
-  section {
-    color: #000;
-  }
 }
+
+*/
