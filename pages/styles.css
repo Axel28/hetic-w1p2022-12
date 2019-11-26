@@ -1,0 +1,51 @@
+body {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+    url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+
+/* MOBILE SCREEN */
+
+@media (min-width: 320px) {
+  div {
+    color: aliceblue;
+  }
+}
+
+@media (min-width: 360px) {
+  div {
+    color: aliceblue;
+  }
+}
+
+/* TABLET SCREEN */
+
+@media (min-width: 768px) {
+  div {
+    color: aliceblue;
+  }
+}
+
+@media (min-width: 1280px) {
+  div {
+    color: aliceblue;
+  }
+}
+
+/* DESKTOP SCREEN */
+
+@media (min-width: 1366px) {
+  div {
+    color: aliceblue;
+  }
+}
+
+@media (min-width: 1920px) {
+  div {
+    color: aliceblue;
+  }
+}
