@@ -10,20 +10,19 @@
 
 /* MOBILE SCREEN */
 
-@media (min-width: 320px) {
-}
+
 
 /* TABLET SCREEN */
 
 @media (min-width: 768px) {
   section {
-    color: aliceblue;
+    color: #000;
   }
 }
 
 @media (min-width: 1280px) {
   section {
-    color: aliceblue;
+    color: #000;
   }
 }
 
@@ -31,12 +30,12 @@
 
 @media (min-width: 1366px) {
   section {
-    color: aliceblue;
+    color: #000;
   }
 }
 
 @media (min-width: 1920px) {
   section {
-    color: aliceblue;
+    color: #000;
   }
 }
