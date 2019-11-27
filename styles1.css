@@ -1,0 +1,227 @@
+.gourde2 {
+  position: absolute;
+  width: 182px;
+  height: 334px;
+  left: 72px;
+  top: 75px;
+}
+
+.rectangle {
+  position: absolute;
+  width: 100%;
+  height: 47px;
+  left: 0px;
+  top: 233px;
+
+  background: rgba(102, 75, 143, 0.42);
+}
+
+.gourdeD {
+  position: absolute;
+  width: 136px;
+  height: 146px;
+  left: 15px;
+  top: 424px;
+}
+
+.unicef {
+  position: absolute;
+  width: 43px;
+  height: 37px;
+  left: 195px;
+  top: 135px;
+}
+
+.gourdeD2 {
+  position: absolute;
+  width: 106px;
+  height: 146px;
+  left: 174px;
+  top: 424px;
+  border-radius: 12px;
+}
+
+.section_first {
+  position: absolute;
+  left: 14px;
+  top: 611px;
+}
+
+.section_second {
+  position: absolute;
+  left: 11px;
+  top: 811px;
+}
+
+.section_third {
+  position: absolute;
+  top: 1509px;
+  background-color: #f4f4f4;
+  padding-left: 14px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.section_four {
+  position: absolute;
+  left: 14px;
+  top: 1826px;
+}
+
+.panier {
+  position: absolute;
+  width: 284px;
+  height: 79px;
+  left: 19px;
+  top: 1263px;
+  background-color: #000000;
+  border-radius: 30px;
+}
+
+.text_panier {
+  position: absolute;
+  width: 84px;
+  height: 32px;
+  left: 128px;
+  top: 1271px;
+
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 32px;
+
+  color: #ffffff;
+}
+
+.text_panier2 {
+  position: absolute;
+  width: 150px;
+  height: 19px;
+  left: 100px;
+  top: 1309px;
+
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+.don {
+  position: absolute;
+  width: 100%;
+  height: 79px;
+  left: 0px;
+  top: 1364px;
+  background: #1e90ff;
+}
+
+.unicef2 {
+  position: absolute;
+  width: 43px;
+  height: 37px;
+  left: 138px;
+  top: 1368px;
+}
+
+.text_don {
+  position: absolute;
+  width: 106px;
+  height: 19px;
+  left: 36%;
+  top: 1409px;
+
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+
+h1 {
+  width: 201px;
+  height: 30px;
+
+  font-family: Press Start 2p;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #252525;
+}
+
+h2 {
+  width: 261px;
+  height: 15px;
+
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: #1e90ff;
+}
+
+h3 {
+  width: 300px;
+  height: 25px;
+
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #000000;
+}
+
+p {
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+
+  color: #252525;
+}
+
+li {
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+
+  color: #252525;
+}
+
+ol.normal {
+  display: list-item;
+  list-style-type: "-";
+}
+
+.rectangle2 {
+  position: absolute;
+  width: 100%;
+  height: 76px;
+  left: 0px;
+  top: 2130px;
+
+  background: #000000;
+}
+
+.gourdeD2:hover {
+  position: absolute;
+  width: 225px;
+  height: 450px;
+  left: 60px;
+  top: 120px;
+  border-radius: 40px;
+}
