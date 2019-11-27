@@ -229,6 +229,9 @@ header .menu {
   /* display: flex;  */
 }
 
+.high-tech img {
+}
+
 .high-tech button {
   background-color: black;
   border: none;
@@ -249,7 +252,49 @@ header .menu {
   justify-content: center;
 }
 
+/* APPLICATION */
+
+.app {
+  text-align: center;
+  margin-top: 50px;
+  background-color: black;
+  width: 100vw;
+  height: 130vh;
+}
+
+.app img {
+  padding-top: 30px;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.app h2 {
+  padding-top: 20px;
+  font-size: 25px;
+  color: white;
+}
+.app p {
+  margin-left: 14px;
+  margin-right: 14px;
+  padding-top: 20px;
+  color: white;
+  font-size: 15px;
+  line-height: 21px;
+}
+
+.download {
+  margin-left: 14px;
+  margin-right: 14px;
+  padding-bottom: 10px;
+  max-width: 20%;
+  max-height: 20%;
+}
+
 /* SURVIE */
+
+.secondary {
+  text-align: center;
+}
 
 .survie button {
   background-color: black;
@@ -265,20 +310,51 @@ header .menu {
   color: white;
 }
 
-/* APPLICATION */
-
-.app {
-  margin-top: 50px;
-  background-color: black;
-  width: 100vh;
-  height: 100vh;
+.explication-unicef {
+  margin-top: 30px;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 14px;
 }
 
-.app img {
-  width: auto;
-  height: 100vh;
+.explication-unicef p {
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  width: 198px;
+  height: 152px;
 }
 
+.explication-unicef span {
+  font-weight: bold;
+}
+.explication-unicef img {
+  margin-left: 25px;
+  margin-top: 10px;
+  max-width: 20%;
+  transform: rotate(-60deg);
+}
+
+.explication-unicef button {
+  margin-left: 80px;
+  margin-top: -30px;
+  transform: rotate(0);
+  border: none;
+  width: 200px;
+  height: 70px;
+  background-color: #1e90ff;
+  border-radius: 30px;
+}
+
+.explication-unicef button img {
+  transform: rotate(0);
+}
+.explication-unicef button a {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
 /* ARTICLES */
 
 .articles img {
