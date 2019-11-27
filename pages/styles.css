@@ -149,8 +149,6 @@ header .menu {
   transition: all 650ms;
 }
 
-/**/
-
 /* MOBILE SCREEN */
 
 /* Intro */
@@ -162,45 +160,45 @@ header .menu {
   text-align: center;
 }
 
-.products,
-.title,
+.vitrine,
+.vitrine-title,
 .scroll {
   position: relative;
 }
 
-.products {
+.vitrine {
   top: 40px;
 }
 
-.products img {
+.vitrine img {
   position: relative;
 }
 
-.products img:nth-child(1) {
+.vitrine img:nth-child(1) {
   z-index: 1;
   left: 30px;
 }
 
-.products img:nth-child(2) {
+.vitrine img:nth-child(2) {
   z-index: 2;
 }
 
-.products img:nth-child(3) {
+.vitrine img:nth-child(3) {
   z-index: 1;
   right: 30px;
 }
 
-.title {
+.vitrine-title {
   top: 100px;
 }
 
-.title h1 {
+.vitrine-title h1 {
   font-size: 25px;
   font-weight: bold;
   text-transform: uppercase;
 }
 
-.title h2 {
+.vitrine-title h2 {
   font-size: 15px;
   font-weight: lighter;
   text-transform: uppercase;
@@ -224,19 +222,67 @@ header .menu {
   text-align: center;
   font-size: 15px;
   font-weight: lighter;
-  text-transform: uppercase;
   padding-top: 32px;
 }
 
 .high-tech {
-  display: flex;
+  /* display: flex;  */
+}
+
+.high-tech button {
+  background-color: black;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  display: block;
+  margin: auto;
+}
+
+.high-tech button a {
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
 }
 
 .bottle_H {
-  padding-left: 100px;
-  background-repeat: no-repeat;
-  background-image: url("../img/Bg_img.png");
-  background-size: 100vh 150px;
+  justify-content: center;
+}
+
+/* SURVIE */
+
+.survie button {
+  background-color: black;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+}
+
+.survie button a {
+  font-size: 12px;
+  text-decoration: none;
+  color: white;
+}
+
+/* APPLICATION */
+
+.app {
+  margin-top: 50px;
+  background-color: black;
+  width: 100vh;
+  height: 100vh;
+}
+
+.app img {
+  width: auto;
+  height: 100vh;
+}
+
+/* ARTICLES */
+
+.articles img {
+  max-width: 320px;
 }
 
 /* TABLET SCREEN 
