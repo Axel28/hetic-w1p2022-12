@@ -6,47 +6,64 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="pages/reset.css" />
     <link rel="stylesheet" href="pages/styles.css" />
-    <script type="text/javascript" src="script/script.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Oxygen&display=swap"
+      rel="stylesheet"
+    />
     <title>Sigg - Smart Bottle</title>
   </head>
-  <body>
-    <header class="globalNav">
-      <div class="container-nav">
-        <nav>
-          <ul class="navRoot">
-            <li class="navSection_logo">
-              <a href="index.html" aria-label="SIGG homepage"
-                ><img src="img/Logo_SIGG 1.svg" alt="SIGG logo"
-              /></a>
-            </li>
-            <li class="navSection_Mobile">
-              <a href="#">Acceuil</a>
-              <a href="#">Produits</a>
-              <a href="#">À propos</a>
-              <div class="popups"></div>
-            </li>
-            <li class="navSection_Tablet"></li>
-            <li class="navSection_Desktop"></li>
-            <li class="navSection_Icons">
-              <a href="#"
-                ><img src="img/shopping-cart.svg" alt="shopping-cart"
-              /></a>
-              <a href="#"><img src="img/Users.svg" alt="users"/></a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+  <body class="body">
+      <section class="container">
+        <header>
+          <section class="header">
+            <img class="logo" src="img/SIGG.svg.png" alt="inscriptions" />
+            <img class="co" src="img/user.png" alt="inscriptions" />
+            <img class="pan" src="img/panier.svg" alt="panier" />
+          </section>
+          <section class="menu">
+            <span class="bar"></span>
+          </section>
+          <nav class="nav">
+            <section class="overlay menu-open">
+              <ul class="primary-menu">
+                <li><a href="#">accueil</a></li>
+                <li><a href="#">produits</a></li>
+                <li><a href="#">à propos</a></li>
+              </ul>
+            </section>
+          </nav>
+        </header>
+      </section>
     </header>
     <main>
       <section class="intro">
-        <div class="container-intro">
-          <a href="#"><img src="img/#" alt="smart-bottle"/></a>
+        <div class="products">
+          <img src="img/produits/bottle.png" alt="smart-bottle" />
+          <img src="img/produits/bottle-1.png" alt="smart-bottle" />
+          <img src="img/produits/bottle-2.png" alt="smart-bottle" />
+        </div>
+        <div class="title">
           <h1>Nouvelle collection</h1>
           <h2>Survie & high tech</h2>
-          <img src="img/#" alt="smart-bottle" />
         </div>
+        <div class="scroll">
+          <img src="img/Vector 1.svg" alt="scroll" />
+        </div>
+      </section>
+      <section class="primary">
+        <h2>Produits</h2>
+        <h3>Survie & high tech</h3>
+        <div class="yellow"></div>
+        <article class="high-tech">
+          <img
+          class="bottle_H"
+          src="img/produits/hightech2 1.png"
+          alt="bottle_high_tech"
+          />
+        </article>
       </section>
     </main>
     <footer></footer>
+    <script type="text/javascript" src="script/script.js"></script>
   </body>
 </html>
