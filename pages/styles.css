@@ -472,9 +472,14 @@ footer {
     margin-top: 180px;
   }
 
+  .high-tech button {
+    margin-top: 70px;
+  }
+
   .settings {
     margin-top: 230px;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 650px;
   }
 
   .settings .set {
@@ -482,7 +487,6 @@ footer {
     background-color: blueviolet;
     width: 154px;
     height: 152px;
-    /* flex-wrap: wrap; */
   }
 
   /* APP */
@@ -492,7 +496,7 @@ footer {
   }
 
   .app .download {
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
   }
 }
 
