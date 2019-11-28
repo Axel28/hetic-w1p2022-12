@@ -1,13 +1,15 @@
 var img = document.querySelector(".gourdeD2");
 var click = 0;
 
-img.addEventListener("click", function() {
-  img.className = "imggrande";
-  click = click + 1;
-  if (click % 2 == 0) {
-    img.className = "gourdeD2";
-  }
-});
+if (img) {
+  img.addEventListener("click", function() {
+    img.className = "imggrande";
+    click = click + 1;
+    if (click % 2 == 0) {
+      img.className = "gourdeD2";
+    }
+  });
+}
 
 let menu = document.querySelector(".menu");
 let nav = document.querySelector(".overlay");

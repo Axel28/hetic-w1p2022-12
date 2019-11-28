@@ -35,6 +35,7 @@ html {
   margin-right: 25%;
   margin-top: 7%;
 }
+
 .pan {
   margin-top: 24px;
   width: 20px;
@@ -59,11 +60,12 @@ header {
 header .menu {
   padding: 1rem 1.3rem;
   position: fixed;
-  top: 0.6rem;
+  top: 3%;
   left: 0.6rem;
   z-index: 99999999;
   border-radius: 3px;
   cursor: pointer;
+
 }
 
 .menu .bar,
@@ -290,7 +292,8 @@ header .menu {
   margin-top: 50px;
   background-color: black;
   width: 100vw;
-  height: 130vh;
+  height: 100vh;
+  padding-top: 120px;
 }
 
 .app img {
@@ -598,28 +601,33 @@ footer p {
   }
 
   .settings {
-    margin-top: 230px;
+    display: flex;
+    /* margin-top: 230px; */
     justify-content: space-between;
+    width: 600px;
   }
 
   .settings .set {
     padding: 10px 20px;
-    background-color: blueviolet;
+    background-color: #BFB3D0;
     width: 154px;
     height: 152px;
-    /* flex-wrap: wrap; */
   }
 
   /* APP */
 
-  .app {
-    display: flex;
+  .app img {
+    max-width: 60%;
+    max-height: 60%;
   }
 
-  .app .download {
-    flex-wrap: wrap;
-  }
-}
+ /* SECONDARY */
+
+ .secondary {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-around;
+ }
 
 /* @media (min-width: 1920px) {
 } */
