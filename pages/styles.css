@@ -7,8 +7,11 @@
 html {
   scroll-behavior: smooth;
 }
-
+body{
+  font-family: "Oxygen", sans-serif;
+}
 .container {
+  font-family: "Oxygen", sans-serif;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
@@ -38,6 +41,7 @@ body {
   margin-top: 24px;
   width: 20px;
   height: 20px;
+  
 }
 
 .co {
@@ -47,11 +51,11 @@ body {
 }
 
 header {
-  position: fixed;
-  width: 100%;
-  z-index: 5;
-  padding-bottom: 20px;
-  background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    padding-bottom: 20px;
+    background-color: #fff;
 }
 
 header .menu {
@@ -145,6 +149,9 @@ header .menu {
   display: block;
   font-size: 18px;
   transition: all 650ms;
+}
+.nav-desk{
+  display: none;
 }
 
 /* MOBILE SCREEN */
@@ -433,6 +440,102 @@ footer {
 /* DESKTOP SCREEN  */
 
 @media (min-width: 1024px) {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Oxygen", sans-serif;
+    margin-left: 14px;
+    margin-right: 14px;
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  header {
+    position: relative;
+    height: 93px;
+    width: 100%;
+    background: white;
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  
+  .header .menu {
+    width: 100%;
+    height: 100px;
+  }
+  
+  .logo {
+    text-align: center;
+    width: 150px;
+    margin-right: 60px;
+    margin-top: 25px;
+    margin-left: 17px;
+    float: left;
+  }
+  .pan {
+    float: right;
+    margin-top: 35px;
+    width: 25px;
+    height: 25px;
+    margin-right: 20px;
+  }
+  
+  .co {
+    float: right;
+    margin-top: 35px;
+    width: 25px;
+    height: 25px;
+    margin-right: 17px;
+  }
+  .menu{
+    display: none;
+  }
+  
+  .nav-desk{
+    display: block;
+  }
+  .desk-menu{
+  display: flex;
+  justify-content: space-around;
+  }
+  
+  ul {
+      padding: 0;
+      margin-top: 20px;
+      list-style-type: none; 
+      text-align: center;
+      text-transform: uppercase;
+  }
+  
+  li {
+      display: inline;
+      padding: 15px;
+      vertical-align: middle;
+      margin-right: 70px;
+  }
+  
+  
+  a {
+      text-decoration: none;
+      color: #252525;
+      vertical-align: middle;
+      font-size: 20px
+  }
+  
+  a:hover {
+      color: gray;
+      cursor: pointer;
+  }
+  
   .intro {
     height: 757px;
   }
@@ -471,14 +574,9 @@ footer {
     margin-top: 180px;
   }
 
-  .high-tech button {
-    margin-top: 70px;
-  }
-
   .settings {
     margin-top: 230px;
-    flex-wrap: wrap;
-    width: 650px;
+    justify-content: space-between;
   }
 
   .settings .set {
@@ -488,23 +586,6 @@ footer {
     height: 152px;
   }
 
-  /* APP */
-
-  .app {
-    height: 40rem;
-  }
-
-  .app .gif-App {
-    margin-left: 50px;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    background-size: 300px;
-  }
-
-  .app .download {
-    /* flex-wrap: wrap; */
-  }
-}
 
 /* @media (min-width: 1920px) {
 } */
