@@ -38,7 +38,6 @@ body {
   margin-top: 24px;
   width: 20px;
   height: 20px;
-  
 }
 
 .co {
@@ -48,11 +47,11 @@ body {
 }
 
 header {
-    position: fixed;
-    width: 100%;
-    z-index: 5;
-    padding-bottom: 20px;
-    background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  padding-bottom: 20px;
+  background-color: #fff;
 }
 
 header .menu {
@@ -492,7 +491,14 @@ footer {
   /* APP */
 
   .app {
-    display: flex;
+    height: 40rem;
+  }
+
+  .app .gif-App {
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    background-size: 300px;
   }
 
   .app .download {
