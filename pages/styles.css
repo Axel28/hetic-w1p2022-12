@@ -598,28 +598,37 @@ footer p {
   }
 
   .settings {
-    margin-top: 230px;
+    display: flex;
+    /* margin-top: 230px; */
     justify-content: space-between;
+    width: 600px;
   }
 
   .settings .set {
     padding: 10px 20px;
-    background-color: blueviolet;
+    background-color: #BFB3D0;
     width: 154px;
     height: 152px;
-    /* flex-wrap: wrap; */
   }
 
   /* APP */
 
-  .app {
+  /* .app {
     display: flex;
   }
 
   .app .download {
     flex-wrap: wrap;
   }
-}
+} */
+
+ /* SECONDARY */
+
+ .secondary {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-around;
+ }
 
 /* @media (min-width: 1920px) {
 } */
