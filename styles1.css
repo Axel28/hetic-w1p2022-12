@@ -1,227 +1,245 @@
+/* IMPORTATION DES POLICES */
+@import url("https://fonts.googleapis.com/css?family=Oxygen:300,400,700&display=swap");
+
+/* Image Gourde */
+div.gourde-container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .gourde2 {
-  position: absolute;
   width: 182px;
   height: 334px;
-  left: 72px;
-  top: 75px;
+  z-index: 2;
 }
 
 .rectangle {
-  position: absolute;
   width: 100%;
+  position: absolute;
+  bottom: 55px;
   height: 47px;
-  left: 0px;
-  top: 233px;
-
+  z-index: 1;
   background: rgba(102, 75, 143, 0.42);
 }
 
-.gourdeD {
+.unicef {
+  width: 43px;
+  height: 37px;
   position: absolute;
+  top: 60px;
+  right: 60px;
+}
+
+.gourdes {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px;
+}
+.gourdeD {
   width: 136px;
   height: 146px;
-  left: 15px;
-  top: 424px;
 }
-
-.unicef {
-  position: absolute;
-  width: 43px;
-  height: 37px;
-  left: 195px;
-  top: 135px;
-}
-
 .gourdeD2 {
-  position: absolute;
-  width: 106px;
+  width: 86px;
   height: 146px;
-  left: 174px;
-  top: 424px;
   border-radius: 12px;
+  transition: ease-in 0.5s;
 }
 
-.section_first {
-  position: absolute;
-  left: 14px;
-  top: 611px;
+/* Présentation gourde */
+
+.presentation-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  margin-top: 32px;
 }
 
-.section_second {
-  position: absolute;
-  left: 11px;
-  top: 811px;
-}
-
-.section_third {
-  position: absolute;
-  top: 1509px;
-  background-color: #f4f4f4;
-  padding-left: 14px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-}
-
-.section_four {
-  position: absolute;
-  left: 14px;
-  top: 1826px;
-}
-
-.panier {
-  position: absolute;
-  width: 284px;
-  height: 79px;
-  left: 19px;
-  top: 1263px;
-  background-color: #000000;
-  border-radius: 30px;
-}
-
-.text_panier {
-  position: absolute;
-  width: 84px;
-  height: 32px;
-  left: 128px;
-  top: 1271px;
-
-  font-family: Oxygen;
+.presentation-container h1 {
+  font-family: "Oxygen";
   font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  line-height: 32px;
-
-  color: #ffffff;
-}
-
-.text_panier2 {
-  position: absolute;
-  width: 150px;
-  height: 19px;
-  left: 100px;
-  top: 1309px;
-
-  font-family: Oxygen;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 19px;
-
-  color: #ffffff;
-}
-
-.don {
-  position: absolute;
-  width: 100%;
-  height: 79px;
-  left: 0px;
-  top: 1364px;
-  background: #1e90ff;
-}
-
-.unicef2 {
-  position: absolute;
-  width: 43px;
-  height: 37px;
-  left: 138px;
-  top: 1368px;
-}
-
-.text_don {
-  position: absolute;
-  width: 106px;
-  height: 19px;
-  left: 36%;
-  top: 1409px;
-
-  font-family: Oxygen;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 19px;
-
-  color: #ffffff;
-}
-
-h1 {
-  width: 201px;
-  height: 30px;
-
-  font-family: Press Start 2p;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 17px;
+  font-weight: 700;
+  font-size: 20px;
   line-height: 20px;
 
   color: #252525;
 }
 
-h2 {
-  width: 261px;
-  height: 15px;
-
-  font-family: Oxygen;
+.presentation-container h2 {
+  font-family: "Oxygen";
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 12px;
   line-height: 15px;
 
   color: #1e90ff;
 }
 
-h3 {
-  width: 300px;
-  height: 25px;
-
-  font-family: Oxygen;
+.presentation-container p {
+  font-family: "Oxygen";
   font-style: normal;
-  font-weight: bold;
+  font-weight: 400;
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #252525;
+}
+
+.presentation-container em {
+  color: #1e90ff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+/* Appli + Achat du Produit */
+
+.achat-container {
+  display: flex;
+  flex-direction: column;
+  margin: 22px 11px;
+}
+
+.achat-container h1 {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 700;
   font-size: 20px;
   line-height: 25px;
-
-  color: #000000;
 }
 
-p {
-  font-family: Oxygen;
+.achat-container a {
+  text-align: center;
+  background-color: #000000;
+  color: white;
+  border-radius: 30px;
+  padding: 8px 0 14px 0;
+
+  font-family: "Oxygen";
+  text-decoration: none;
   font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 19px;
-
-  color: #252525;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 32px;
 }
 
-li {
-  font-family: Oxygen;
+/* Faire un don */
+
+.don-container a {
+  display: flex;
+  font-family: "Oxygen";
+  flex-direction: column;
+  background: #1e90ff;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  text-align: center;
+  padding: 4px 0 15px 0;
+}
+
+/* Caractéristiques du produit */
+
+.caracteristiques-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  margin: 44px 0 0 0;
+  padding: 22px 0 10px 0;
+}
+
+.caracteristiques-container h1 {
+  font-family: "Oxygen";
   font-style: normal;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 19px;
-
-  color: #252525;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 0 15px 15px 15px;
 }
 
-ol.normal {
+.caracteristiques-container ol {
   display: list-item;
   list-style-type: "-";
+  padding: 0 13px 0 17px;
 }
 
-.rectangle2 {
-  position: absolute;
+.caracteristiques-container li {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+
+  color: #252525;
+}
+
+.caracteristiques-container p {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+
+  color: #252525;
+}
+
+/* En savoir plus sur le produit */
+
+.savoir-container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 14px 0 14px;
+  margin-bottom: 30px;
+}
+
+.savoir-container div {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.savoir-container div h1 {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.savoir-container div .rectangle2 {
+  background: black;
+  height: 5px;
+  width: 43%;
+  margin: 11px 0 0 15px;
+}
+
+.savoir-container p {
+  font-family: "Oxygen";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.savoir-container em {
+  font-weight: 900;
+}
+
+/* Footer */
+
+footer {
+  background-color: black;
   width: 100%;
   height: 76px;
-  left: 0px;
-  top: 2130px;
-
-  background: #000000;
 }
 
-.gourdeD2:hover {
-  position: absolute;
-  width: 225px;
-  height: 450px;
-  left: 60px;
-  top: 120px;
-  border-radius: 40px;
+/* Animation GIF */
+
+.imggrande {
+  transform: scale(1.25);
+  z-index: 12;
+  transform-origin: 100% 100%;
+  border-radius: 25px;
+  transition: 0.3s ease-in-out;
 }
