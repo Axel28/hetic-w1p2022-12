@@ -1,10 +1,14 @@
+.article {
+  margin-top: 65px;
+}
+
 .article h1 {
   padding-left: 14px;
   padding-right: 14px;
   font-size: 15px;
-  padding-top: 3%;
+  padding-top: 4%;
   width: 100vw;
-  height: 70px;
+  height: 80px;
   background-color: #b7d7f5;
   color: white;
 }
@@ -28,6 +32,12 @@
 .text-blue {
   font-size: 22px;
   color: #1cabe3;
+  font-weight: bold;
+}
+
+.text-purple {
+  font-size: 22px;
+  color: #53007a;
   font-weight: bold;
 }
 
