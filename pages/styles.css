@@ -7,21 +7,19 @@
 html {
   scroll-behavior: smooth;
 }
-body{
-  font-family: "Oxygen", sans-serif;
-}
+
 .container {
-  font-family: "Oxygen", sans-serif;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   text-align: center;
 }
 
-body {
+.body {
   position: relative;
   height: 65px;
   background: white;
+  font-family: "oxygen";
 }
 
 .header .menu {
@@ -41,7 +39,6 @@ body {
   margin-top: 24px;
   width: 20px;
   height: 20px;
-  
 }
 
 .co {
@@ -51,11 +48,11 @@ body {
 }
 
 header {
-    position: fixed;
-    width: 100%;
-    z-index: 5;
-    padding-bottom: 20px;
-    background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  padding-bottom: 20px;
+  background-color: #fff;
 }
 
 header .menu {
@@ -149,9 +146,6 @@ header .menu {
   display: block;
   font-size: 18px;
   transition: all 650ms;
-}
-.nav-desk{
-  display: none;
 }
 
 /* MOBILE SCREEN */
@@ -267,13 +261,23 @@ header .menu {
 
 .settings .set {
   text-align: center;
-
+  padding-top: 12px;
+  font-size: 12px;
   width: 100px;
   height: 100px;
   background-color: #bfb3d0;
   color: white;
   margin-bottom: 20px;
   margin-right: 20px;
+}
+
+.settings .set img {
+  max-width: 30%;
+}
+
+.settings .set p {
+  margin-top: 7px;
+  font-size: 12px;
 }
 
 /* APPLICATION */
@@ -385,11 +389,11 @@ header .menu {
 
 .articles {
   margin-top: 50px;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .article {
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .article figure {
@@ -398,13 +402,17 @@ header .menu {
   margin: auto;
 }
 .article img {
-  max-width: 320px;
+  max-width: 100vw;
 }
 .article figcaption {
   background-color: #284d8d;
   color: #fff;
   padding: 3px;
   text-align: center;
+}
+
+figcaption button {
+  width: 10px;
 }
 
 .articles button {
@@ -423,8 +431,21 @@ header .menu {
 
 footer {
   width: 100vw;
-  height: 150px;
+  height: 80px;
   background-color: #f4f4f4;
+}
+
+footer .social {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+
+footer p {
+  margin-top: 8px;
+  text-align: center;
+  color: #7a7a7a;
 }
 
 /* TABLET SCREEN 
@@ -443,7 +464,7 @@ footer {
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
     font-family: "Oxygen", sans-serif;
     margin-left: 14px;
@@ -451,14 +472,14 @@ footer {
     padding: 0;
     font-size: 14px;
   }
-  
+
   .container {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     text-align: center;
   }
-  
+
   header {
     position: relative;
     height: 93px;
@@ -467,12 +488,12 @@ footer {
     margin-left: 14px;
     margin-right: 14px;
   }
-  
+
   .header .menu {
     width: 100%;
     height: 100px;
   }
-  
+
   .logo {
     text-align: center;
     width: 150px;
@@ -488,7 +509,7 @@ footer {
     height: 25px;
     margin-right: 20px;
   }
-  
+
   .co {
     float: right;
     margin-top: 35px;
@@ -496,46 +517,45 @@ footer {
     height: 25px;
     margin-right: 17px;
   }
-  .menu{
+  .menu {
     display: none;
   }
-  
-  .nav-desk{
+
+  .nav-desk {
     display: block;
   }
-  .desk-menu{
-  display: flex;
-  justify-content: space-around;
+  .desk-menu {
+    display: flex;
+    justify-content: space-around;
   }
-  
+
   ul {
-      padding: 0;
-      margin-top: 20px;
-      list-style-type: none; 
-      text-align: center;
-      text-transform: uppercase;
+    padding: 0;
+    margin-top: 20px;
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
   }
-  
+
   li {
-      display: inline;
-      padding: 15px;
-      vertical-align: middle;
-      margin-right: 70px;
+    display: inline;
+    padding: 15px;
+    vertical-align: middle;
+    margin-right: 70px;
   }
-  
-  
+
   a {
-      text-decoration: none;
-      color: #252525;
-      vertical-align: middle;
-      font-size: 20px
+    text-decoration: none;
+    color: #252525;
+    vertical-align: middle;
+    font-size: 20px;
   }
-  
+
   a:hover {
-      color: gray;
-      cursor: pointer;
+    color: gray;
+    cursor: pointer;
   }
-  
+
   .intro {
     height: 757px;
   }
@@ -584,8 +604,19 @@ footer {
     background-color: blueviolet;
     width: 154px;
     height: 152px;
+    /* flex-wrap: wrap; */
   }
 
+  /* APP */
+
+  .app {
+    display: flex;
+  }
+
+  .app .download {
+    flex-wrap: wrap;
+  }
+}
 
 /* @media (min-width: 1920px) {
 } */
