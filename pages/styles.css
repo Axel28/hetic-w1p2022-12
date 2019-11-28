@@ -584,19 +584,8 @@ footer {
     background-color: blueviolet;
     width: 154px;
     height: 152px;
-    /* flex-wrap: wrap; */
   }
 
-  /* APP */
-
-  .app {
-    display: flex;
-  }
-
-  .app .download {
-    flex-wrap: wrap;
-  }
-}
 
 /* @media (min-width: 1920px) {
 } */
