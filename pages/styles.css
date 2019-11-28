@@ -431,12 +431,71 @@ footer {
 
 */
 
-/* DESKTOP SCREEN 
+/* DESKTOP SCREEN  */
 
-@media (min-width: 1366px) {
+@media (min-width: 1024px) {
+  .intro {
+    height: 757px;
+  }
+  .vitrine {
+    top: 180px;
+  }
+  .vitrine img:nth-child(1) {
+    left: -360px;
+  }
+
+  .vitrine img:nth-child(3) {
+    right: -360px;
+  }
+  .vitrine-title {
+    top: -280px;
+  }
+
+  .scroll {
+    top: 380px;
+  }
+
+  /* PRIMARY */
+
+  .primary {
+    display: flex;
+  }
+
+  .primary h3 {
+    text-align: center;
+    margin-top: 136px;
+    margin-left: 36px;
+  }
+
+  .high-tech {
+    flex-direction: column;
+    margin-top: 180px;
+  }
+
+  .settings {
+    margin-top: 230px;
+    justify-content: space-between;
+  }
+  
+  .settings .set {
+    padding: 10px 20px;
+    background-color: blueviolet;
+    width: 154px;
+    height: 152px;
+    /* flex-wrap: wrap; */
+  }
+ 
+  /* APP */
+
+  .app {
+    display: flex;
+  }
+
+  .app .download {
+    flex-wrap: wrap;
+  }
+
 }
 
-@media (min-width: 1920px) {
-}
-
-*/
+/* @media (min-width: 1920px) {
+} */
