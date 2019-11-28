@@ -49,6 +49,7 @@ html {
 
 header {
   position: fixed;
+  top: 0;
   width: 100%;
   z-index: 5;
   padding-bottom: 20px;
@@ -147,7 +148,9 @@ header .menu {
   font-size: 18px;
   transition: all 650ms;
 }
-
+.nav-desk {
+  display: none;
+}
 /* MOBILE SCREEN */
 
 /* Intro */
@@ -555,7 +558,7 @@ footer p {
     color: gray;
     cursor: pointer;
   }
-
+  
   .intro {
     height: 757px;
   }
