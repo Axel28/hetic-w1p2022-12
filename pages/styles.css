@@ -379,10 +379,46 @@ header .menu {
 
 .articles {
   margin-top: 50px;
+  font-size: 15px;
 }
 
-.articles img {
+.article {
+  margin-bottom: 20px;
+}
+
+.article figure {
+  display: flex;
+  flex-flow: column;
+  margin: auto;
+}
+.article img {
   max-width: 320px;
+}
+.article figcaption {
+  background-color: #284d8d;
+  color: #fff;
+  padding: 3px;
+  text-align: center;
+}
+
+.articles button {
+  background-color: #1e90ff;
+  height: 50px;
+  border: none;
+  width: 100vw;
+}
+
+.articles button a {
+  text-decoration: none;
+  color: white;
+}
+
+/* FOOTER */
+
+footer {
+  width: 100vw;
+  height: 150px;
+  background-color: #f4f4f4;
 }
 
 /* TABLET SCREEN 
