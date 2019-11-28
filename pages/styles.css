@@ -226,10 +226,7 @@ header .menu {
 }
 
 .high-tech {
-  /* display: flex;  */
-}
-
-.high-tech img {
+  text-align: center;
 }
 
 .high-tech button {
@@ -250,6 +247,27 @@ header .menu {
 
 .bottle_H {
   justify-content: center;
+}
+
+.settings {
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-top: 20px;
+}
+
+.settings .set {
+  text-align: center;
+
+  width: 100px;
+  height: 100px;
+  background-color: #bfb3d0;
+  color: white;
+  margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 /* APPLICATION */
@@ -294,6 +312,7 @@ header .menu {
 
 .secondary {
   text-align: center;
+  margin-top: 50px;
 }
 
 .survie button {
@@ -336,7 +355,7 @@ header .menu {
 
 .explication-unicef button {
   margin-left: 80px;
-  margin-top: -30px;
+  margin-top: -32px;
   transform: rotate(0);
   border: none;
   width: 200px;
@@ -355,7 +374,12 @@ header .menu {
   text-decoration: none;
   color: white;
 }
+
 /* ARTICLES */
+
+.articles {
+  margin-top: 50px;
+}
 
 .articles img {
   max-width: 320px;
