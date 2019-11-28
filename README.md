@@ -6,7 +6,7 @@
 
 ### Yoan Bensimhon
 
-### Ramtin Addtar
+### Ramtin Attar
 
 ### Idriss Fall
 
