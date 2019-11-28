@@ -1,6 +1,11 @@
 @media (min-width: 1024px) {
   .cont_form {
-    margin-left: 50%;
+    /*margin-left: 50%;*/
+    display: flex;
+    flex-direction: column;
+  }
+  .global_cont {
+    display: flex;
   }
   
 }
