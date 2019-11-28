@@ -8,17 +8,14 @@ html {
   scroll-behavior: smooth;
 }
 
-.body {
-  font-family: "Oxygen", sans-serif;
-}
-
 .container {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
   text-align: center;
 }
-.body {
+
+body {
   position: relative;
   height: 65px;
   background: white;
@@ -49,6 +46,7 @@ html {
   width: 20px;
   height: 20px;
 }
+
 header {
     position: fixed;
     width: 100%;
@@ -208,7 +206,7 @@ header .menu {
 }
 
 .scroll {
-  top: 180px;
+  top: 140px;
 }
 
 /* PRIMARY */
@@ -478,7 +476,7 @@ footer {
     margin-top: 230px;
     justify-content: space-between;
   }
-  
+
   .settings .set {
     padding: 10px 20px;
     background-color: blueviolet;
@@ -486,7 +484,7 @@ footer {
     height: 152px;
     /* flex-wrap: wrap; */
   }
- 
+
   /* APP */
 
   .app {
@@ -496,7 +494,6 @@ footer {
   .app .download {
     flex-wrap: wrap;
   }
-
 }
 
 /* @media (min-width: 1920px) {
