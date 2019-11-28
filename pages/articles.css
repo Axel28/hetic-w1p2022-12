@@ -31,6 +31,12 @@
   font-weight: bold;
 }
 
+.text-purple {
+  font-size: 22px;
+  color: #53007a;
+  font-weight: bold;
+}
+
 .size-bold {
   font-size: 22px;
   font-weight: bold;
@@ -101,6 +107,7 @@
 .wave-purple {
   width: 100vw;
 }
+
 
 .article button {
   display: flex;
