@@ -15,10 +15,11 @@ html {
   text-align: center;
 }
 
-body {
+.body {
   position: relative;
   height: 65px;
   background: white;
+  font-family: "oxygen";
 }
 
 .header .menu {
@@ -38,7 +39,6 @@ body {
   margin-top: 24px;
   width: 20px;
   height: 20px;
-  
 }
 
 .co {
@@ -48,11 +48,11 @@ body {
 }
 
 header {
-    position: fixed;
-    width: 100%;
-    z-index: 5;
-    padding-bottom: 20px;
-    background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  padding-bottom: 20px;
+  background-color: #fff;
 }
 
 header .menu {
@@ -416,6 +416,7 @@ header .menu {
 /* FOOTER */
 
 footer {
+  margin-top: 30px;
   width: 100vw;
   height: 150px;
   background-color: #f4f4f4;
