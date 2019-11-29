@@ -4,13 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
     <link rel="stylesheet" href="pages/reset.css" />
     <link rel="stylesheet" href="pages/styles1.css" />
     <link rel="stylesheet" href="pages/form.css" />
+    <link rel="stylesheet" href="pages/styles.css" />
+    <link rel="shortcut icon" href="icons/favicon.ico" />
     <title>Sigg - Smart Bottle</title>
   </head>
-  <body>
+  <body class="body">
+    <section class="container">
+      <header>
+        <section class="header">
+          <img class="logo" src="img/SIGG.svg.png" alt="logo" />
+          <img class="co" src="user 1.svg" alt="inscriptions" />
+          <img class="pan" src="shopping-cart (1) 1.svg" alt="panier" />
+        </section>
+        <section class="menu">
+          <span class="bar"></span>
+        </section>
+        <nav class="nav">
+          <section class="overlay menu-open">
+            <ul class="primary-menu">
+              <li><a href="index.html">accueil</a></li>
+              <li><a href="page.html">produits</a></li>
+              <li><a href="#articleess">articles</a></li>
+            </ul>
+          </section>
+        </nav>
+        <nav class="nav-desk">
+          <section>
+            <ul class="desk-menu">
+              <li><a href="index.html">accueil</a></li>
+              <li><a href="page.html">produits</a></li>
+              <li><a href="#articleess">articles</a></li>
+            </ul>
+          </section>
+        </nav>
+      </header>
+    </section>
+
     <main>
       <div class="englobe">
         <div class="gourde-container">
@@ -38,62 +70,60 @@
       </div>
       <div class="cont_form">
         <div class="titre1">
-      <h1>Télécharges aussi l'application !</h1>
-
-
+          <h1>Télécharges aussi l'application !</h1>
 
           <!--Formulaire Start-->
 
-      <h2>Choisis ta couleur :</h2> 
-    </div>
-    <form>  
-      <div class="color">
-        <div id="color1">
-          <label class="purple"></label>
+          <h2>Choisis ta couleur :</h2>
         </div>
-        <div id="color2">
-          <label class="yellow"></label>
-        </div>
-        <div id="color3">
-          <label class="blue"></label>
-        </div>
-      </div>
-    </form>
+        <form>
+          <div class="color">
+            <div id="color1">
+              <label class="purple"></label>
+            </div>
+            <div id="color2">
+              <label class="yellow"></label>
+            </div>
+            <div id="color3">
+              <label class="blue"></label>
+            </div>
+          </div>
+        </form>
         <div class="titre2">
           <h3>Choisis la contenance :</h3>
         </div>
 
-    <form>
-      <div class =content>
-      <div id="Contenance500ml">
-        <label class="500ml">500ml</label>
-      </div>
-      <div id="Contenance750ml">
-        <label class="750ml">750ml</label>
-      </div>
-    </div>
-    </form>
-    <div class="titre3">
-      <h4>Option(s) :</h4>
-    </div> 
+        <form>
+          <div class="content">
+            <div id="Contenance500ml">
+              <label class="500ml">500ml</label>
+            </div>
+            <div id="Contenance750ml">
+              <label class="750ml">750ml</label>
+            </div>
+          </div>
+        </form>
+        <div class="titre3">
+          <h4>Option(s) :</h4>
+        </div>
 
-    <form>
-        <div id="option1">
-          <label class="option1">
-          <p>Socle de charge batterie</p>
-          </label>
-        </div>
-        <div id="option2">
-          <label class="option2">
-          <p>Filtre à eau + capteur de qualité de l'eau</p>
-          </label>
-        </div>
-    </form> 
-      <script type="text/javascript" src="script/form.js"></script>
-    </div>
-                    <!--Formulaire End-->
- <div class="achat-container">
-  <a href="">
+        <form>
+          <div id="option1">
+            <label class="option1">
+              <p>Socle de charge batterie</p>
+            </label>
+          </div>
+          <div id="option2">
+            <label class="option2">
+              <p>Filtre à eau + capteur de qualité de l'eau</p>
+            </label>
+          </div>
+        </form>
+        <script type="text/javascript" src="script/form.js"></script>
+      </div>
+      <!--Formulaire End-->
+      <div class="achat-container">
+        <a href="">
           <p>49,99€</p>
           <p>AJOUTER AU PANIER</p>
         </a>
@@ -149,7 +179,15 @@
         </p>
       </div>
     </main>
-    <footer></footer>
+
+    <footer>
+      <nav class="social">
+        <a href="#"><img src="icons/facebook.svg" alt="facebook"/></a>
+        <a href="#"><img src="icons/twitter.svg" alt="facebook"/></a>
+        <a href="#"><img src="icons/instagram.svg" alt="facebook"/></a>
+      </nav>
+      <p>© Équipe 12</p>
+    </footer>
     <script type="text/javascript" src="script/script.js"></script>
   </body>
 </html>
